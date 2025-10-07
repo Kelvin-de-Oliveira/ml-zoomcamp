@@ -13,19 +13,26 @@ ML-Zoomcamp-Solutions/
 │
 ├── Module-01/
 │   ├── notebooks/
+│   │   │──notes/
+│   │
 │   └── data/
 │
 ├── Module-02/
 │   ├── notebooks/
+│   │   │──notes/
+│   │
 │   └── data/
 │
 ├── Module-03/
 │   ├── notebooks/
+│   │   │──notes/
+│   │
 │   └── data/
 │
 └── ...
 ```
 
 - Each `Module` folder contains the exercises and projects for that specific part of the course.  
-- `notebooks/` - Jupyter notebooks with solutions.  
+- `notebooks/` - Jupyter notebooks containing solutions for the homework module. 
+-  `notes/` - notes from lessons
 - `data/` - datasets used for the exercises.

@@ -1,25 +1,12 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
-
-
-
-# In[2]:
 
 
 import requests
 
 
-# In[24]:
-
-
 url = 'http://127.0.0.1:9696/predict'
-
-
-# In[25]:
 
 
 customer = {
@@ -45,20 +32,17 @@ customer = {
 }
 
 
-# In[26]:
 
 
 response = requests.post(url, json=customer)
 
 
-# In[27]:
-
-
 print(response.json())
 
 
-# In[ ]:
-
-
+if response[churn] == True:
+    print("The customer will churn.")
+else:
+    print("The customer will not churn.") 
 
 
